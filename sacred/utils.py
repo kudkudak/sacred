@@ -90,7 +90,7 @@ def tee_output():
     yield out
     sys.stdout = sys.stdout.out1
     sys.stderr = sys.stderr.out1
-    out.close()
+#     out.close()
 
 
 def iterate_flattened_separately(dictionary):
